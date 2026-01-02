@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import AwaisImage from "../../assets/awais-1.jpeg";
 import data from "../../Data/data.json";
 

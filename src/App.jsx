@@ -1,6 +1,6 @@
 import ContactUs from './components/ContactUs/page';
 // import PortfolioGrid from './components/PortfolioGrid/page';
-import PortfolioHero from './components/PortfolioHero/page';
+import PortfolioHero from './components/PortfolioHero/page.jsx';
 import WorkPortfoilio from './components/WorkPortfoilio/page';
 import Biography from './components/BioGraphy/page';
 import './index.css'

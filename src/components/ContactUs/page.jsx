@@ -73,7 +73,7 @@ const ContactUs = () => {
                   {['React.js', 'Vue.js', 'Node.js', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'REST APIs', 'WebSockets'].map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1 bg-accent-light text-accent rounded-full text-sm font-medium"
+                      className="px-3 py-1 bg-accent-orange-light text-accent-orange rounded-full text-sm font-medium"
                     >
                       {tech}
                     </span>

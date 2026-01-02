@@ -1,39 +1,46 @@
 :root {
-  /* Primary Colors - Deep Navy Blue Theme */
+  /* Primary Colors - Modern Tech Black/Gray Theme */
   --primary-50: #f8fafc;
   --primary-100: #f1f5f9;
   --primary-200: #e2e8f0;
-  --primary-600: #0f172a;
-  --primary-700: #1e293b;
-  --primary-900: #0f172a;
+  --primary-600: #1a1a1a;
+  --primary-700: #2d2d2d;
+  --primary-900: #0a0a0a;
 
-  /* Secondary Colors - Slate Navy */
-  --secondary-100: #f8fafc;
-  --secondary-200: #f1f5f9;
-  --secondary-300: #e2e8f0;
-  --secondary-400: #94a3b8;
-  --secondary-500: #64748b;
-  --secondary-600: #475569;
-  --secondary-700: #334155;
-  --secondary-900: #0f172a;
+  /* Secondary Colors - Trust Blue */
+  --secondary-100: #f0f9ff;
+  --secondary-200: #e0f2fe;
+  --secondary-300: #bae6fd;
+  --secondary-400: #7dd3fc;
+  --secondary-500: #38bdf8;
+  --secondary-600: #0ea5e9;
+  --secondary-700: #0284c7;
+  --secondary-900: #0c4a6e;
 
-  /* Accent Colors - Gold */
-  --accent-50: #fffbeb;
-  --accent-100: #fef3c7;
-  --accent-200: #fde68a;
-  --accent-600: #d4af37;
-  --accent-700: #b8941f;
-  --accent-900: #854d0e;
+  /* Accent Colors - Success Green & Orange */
+  --accent-50: #f0fdf4;
+  --accent-100: #dcfce7;
+  --accent-200: #bbf7d0;
+  --accent-600: #16a34a;
+  --accent-700: #15803d;
+  --accent-900: #14532d;
 
-  /* Background Gradients - Navy based */
-  --gradient-hero: linear-gradient(to bottom right, #1e293b, #334155, #475569);
-  --gradient-bio: linear-gradient(to bottom right, #f8fafc, #f1f5f9, #e2e8f0);
-  --gradient-image: linear-gradient(to bottom right, #f1f5f9, #e2e8f0);
+  --accent-orange-50: #fff7ed;
+  --accent-orange-100: #ffedd5;
+  --accent-orange-200: #fed7aa;
+  --accent-orange-600: #ea580c;
+  --accent-orange-700: #c2410c;
+  --accent-orange-900: #7c2d12;
+
+  /* Background Gradients - Modern Tech */
+  --gradient-hero: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #404040 100%);
+  --gradient-bio: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+  --gradient-image: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
 
   /* Neutral Colors */
   --white: #ffffff;
   --background: #f8fafc;
-  --text-primary: #0f172a;
+  --text-primary: #0a0a0a;
 }
 
 /* Utility classes for common patterns */
@@ -77,7 +84,7 @@
   background-color: var(--background);
 }
 
-/* Gold Accent Utility Classes */
+/* Accent Utility Classes */
 .bg-accent {
   background-color: var(--accent-600);
 }
@@ -100,4 +107,34 @@
 
 .border-accent-hover {
   border-color: var(--accent-700);
+}
+
+/* Orange Accent Utility Classes */
+.bg-accent-orange {
+  background-color: var(--accent-orange-600);
+}
+
+.bg-accent-orange-hover {
+  background-color: var(--accent-orange-700);
+}
+
+.text-accent-orange {
+  color: var(--accent-orange-600);
+}
+
+.bg-accent-orange-light {
+  background-color: var(--accent-orange-100);
+}
+
+.border-accent-orange {
+  border-color: var(--accent-orange-600);
+}
+
+/* Success Color */
+.bg-success {
+  background-color: var(--accent-600);
+}
+
+.text-success {
+  color: var(--accent-600);
 }

@@ -1,0 +1,104 @@
+{
+  "profile": {
+    "name": "Muhammad Awais",
+    "role": "Senior Software Engineer | Full Stack Developer",
+    "bio": "Senior Software Engineer with 7+ years of experience in full-stack development, e-commerce platforms, IoT applications, and scalable backend systems. Specialized in building secure, high-performance enterprise and freelance solutions.",
+    "contact": {
+      "email": "mailawais709@gmail.com",
+      "phone": "+92-370-485-7471",
+      "address": "Lahore, Punjab, Pakistan"
+    },
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/muhammad-awais-535820139"
+    }
+  },
+
+  "hero": {
+    "name": "Muhammad Awais",
+    "description": "I'm a Senior Software Engineer with 7+ years of experience in full-stack development, e-commerce systems, IoT applications, and scalable backend architectures.",
+    "stats": [
+      { "value": "7+", "label": "Years Experience" },
+      { "value": "30+", "label": "Projects Delivered" },
+      { "value": "25+", "label": "Happy Clients" }
+    ]
+  },
+
+  "biography": [
+    "I am a Senior Software Engineer with over 7+ years of professional experience in full-stack software development, backend architecture, and API-driven systems. I specialize in building scalable, secure, and high-performance applications.",
+    "I have worked across multiple domains including e-commerce, healthcare, education, ERP, POS, and industrial IoT platforms, delivering enterprise-grade solutions with long-term maintainability.",
+    "Intelgenic: Led development and modernization of OpenCart and Laravel-based e-commerce platforms, integrated AI-powered search, product recommendations, and Elasticsearch for high-performance querying.",
+    "Hosted Website Concept: Built survey systems, hospital billing software, high-traffic e-commerce platforms, and custom video conferencing applications using Laravel and Vue.js.",
+    "IoT Expertise: Developed real-time industrial monitoring systems (RAMS) with live sensor data, alerts, dashboards, and WebSocket-based communication.",
+    "Backend Expertise: Strong hands-on experience with Laravel, Node.js, Nest.js, REST APIs, authentication, RBAC, and automated testing using PHPUnit.",
+    "Frontend & DevOps: Experienced with Vue.js, React.js, Angular, MySQL, MongoDB, and DevOps workflows for scalable deployments."
+  ],
+
+  "whatIDo": {
+    "title": "What I Do",
+    "paragraphs": [
+      "I am a Senior Software Engineer with 7+ years of experience in designing and developing scalable full-stack applications, enterprise systems, and IoT-based platforms.",
+      "I work closely with cross-functional teams and stakeholders to architect secure, high-performance solutions, focusing on clean code, system scalability, and long-term maintainability."
+    ]
+  },
+
+  "workProjects": [
+    {
+      "title": "E-commerce & OpenCart Platforms",
+      "description": "Led development and optimization of large-scale OpenCart and Laravel-based e-commerce platforms, integrating AI-powered search, Elasticsearch, POS systems, and admin dashboards.",
+      "url": "#"
+    },
+    {
+      "title": "IoT Monitoring System (RAMS)",
+      "description": "Developed an industrial IoT web application for real-time sensor monitoring, alerts, analytics dashboards, and predictive recommendations using WebSockets and data visualization tools.",
+      "url": "#"
+    },
+    {
+      "title": "Enterprise Systems & APIs",
+      "description": "Built ERP, POS, hospital billing, survey management, and Google Ads API dashboards with Laravel, Vue.js, REST APIs, and automated testing.",
+      "url": "#"
+    }
+  ],
+
+  "portfolioProjects": [
+    {
+      "id": 1,
+      "category": "FULL STACK DEVELOPMENT",
+      "title": "E-commerce Admin Dashboard",
+      "description": "Enterprise-level admin dashboard for managing products, orders, vendors, and analytics with performance optimization.",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+      "bgColor": "from-slate-800 to-slate-900"
+    },
+    {
+      "id": 2,
+      "category": "IOT APPLICATION",
+      "title": "Industrial Monitoring System",
+      "description": "Real-time IoT monitoring dashboard with live sensor data, alerts, and predictive insights.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "bgColor": "from-blue-800 to-indigo-900"
+    },
+    {
+      "id": 3,
+      "category": "ENTERPRISE SOFTWARE",
+      "title": "Hospital Billing & ERP System",
+      "description": "Custom hospital billing, ERP, and reporting system with automated workflows and compliance standards.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
+      "bgColor": "from-emerald-700 to-teal-800"
+    },
+    {
+      "id": 4,
+      "category": "API INTEGRATION",
+      "title": "Google Ads Analytics Dashboard",
+      "description": "Advanced analytics dashboard integrating Google Ads API with real-time campaign insights.",
+      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=600&h=400&fit=crop",
+      "bgColor": "from-amber-600 to-orange-700"
+    },
+    {
+      "id": 5,
+      "category": "SURVEY PLATFORM",
+      "title": "Survey Management System",
+      "description": "Custom-built survey platform with real-time analytics, reporting, and user management.",
+      "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=400&fit=crop",
+      "bgColor": "from-purple-700 to-fuchsia-800"
+    }
+  ]
+}

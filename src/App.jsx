@@ -1,16 +1,16 @@
-import React from 'react';
-// import PortfolioGrid from './components/PortfolioGrid/page';
-import PortfolioHero from './components/PortfolioHero/Page';
-import BioGraphy from './components/BioGraphy/page';
-import WorkPortfoilio from './components/WorkPortfoilio/page';
 import ContactUs from './components/ContactUs/page';
+// import PortfolioGrid from './components/PortfolioGrid/page';
+import PortfolioHero from './components/PortfolioHero/page';
+import WorkPortfoilio from './components/WorkPortfoilio/page';
+import Biography from './components/BioGraphy/page';
 import './index.css'
+import './App.css'
 
 function App() {
   return (
     <div className="min-h-screen">
       <PortfolioHero />
-      <BioGraphy />
+      <Biography />
       {/* <PortfolioGrid /> */}
       <WorkPortfoilio />
       <ContactUs />

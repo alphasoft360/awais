@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowUp } from "lucide-react";
-import data from "../../data.json";
+import data from "../../Data/data.json";
 
 const WorkPortfoilio = () => {
   const scrollToTop = () => {
@@ -8,45 +8,39 @@ const WorkPortfoilio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200 py-20 px-4 relative">
+    <div className="min-h-screen bg-secondary py-20 px-4 relative">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Left Column */}
-          <div className="space-y-6">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900">
-              {data.whatIDo.title}
-            </h2>
+        
+        {/* Top Section - Text Content */}
+        <div className="max-w-4xl mx-auto text-center space-y-6 mb-16">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary">
+            {data.whatIDo.title}
+          </h2>
 
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-              {data.whatIDo.paragraphs[0]}
-            </p>
+          <p className="text-secondary text-base sm:text-lg leading-relaxed">
+            {data.whatIDo.paragraphs[0]}
+          </p>
 
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-              {data.whatIDo.paragraphs[1]}
-            </p>
+          <p className="text-secondary text-base sm:text-lg leading-relaxed">
+            {data.whatIDo.paragraphs[1]}
+          </p>
+        </div>
 
-            {/* <button className="mt-6 bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-md font-medium transition-all duration-300 hover:shadow-lg">
-              Let&apos;s Work Together
-            </button> */}
-          </div>
-
-          {/* Right Column - Experience Cards */}
-          <div className="space-y-6">
-            {data.workProjects.map((project, index) => (
-              <a
-                key={index}
-                href={project.url}
-                target="_blank"
-                rel="noreferrer"
-                className="block bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 cursor-pointer"
+        {/* Bottom Section - Practice/Experience Cards */}
+        <div className="max-w-7xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {data.workProjects.map((card, idx) => (
+              <div
+                key={idx}
+                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl hover:bg-accent-light hover:border-accent hover:border-2 transition-all duration-300 cursor-pointer group"
               >
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {project.title}
+                <h3 className="text-xl font-bold text-primary mb-3">
+                  {card.title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  {project.description}
+                <p className="text-secondary leading-relaxed">
+                  {card.description}
                 </p>
-              </a>
+              </div>
             ))}
           </div>
         </div>
@@ -55,7 +49,7 @@ const WorkPortfoilio = () => {
       {/* Scroll to Top */}
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 right-6 bg-purple-600 hover:bg-purple-700 text-white p-3 sm:p-4 rounded-full shadow-lg transition"
+        className="fixed bottom-6 right-6 bg-accent hover:bg-accent-hover text-white p-3 sm:p-4 rounded-full shadow-lg transition"
         aria-label="Scroll to top"
       >
         <ArrowUp size={22} />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   MapPin,
   Mail,
@@ -6,45 +6,139 @@ import {
   Linkedin,
   Github,
 } from "lucide-react";
-import data from "../../data.json";
+import data from "../../Data/data.json";
 
 /* =========================
    COMPONENT
 ========================= */
 const ContactUs = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    location: "",
-    budget: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = () => {
-    console.log("Form submitted:", formData);
-    alert("Thank you! Your message has been sent.");
-  };
-
   const whatsappNumber = data.profile.contact.phone.replace(/[^0-9]/g, '');
 
   return (
-    <div className="min-h-screen bg-gray-100 py-16 px-4">
+    <div className="min-h-screen bg-light py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="bg-white rounded-3xl shadow-lg p-8 lg:p-12">
           <div className="grid lg:grid-cols-2 gap-12">
             
-            {/* LEFT COLUMN */}
+            {/* LEFT COLUMN - ADDITIONAL DETAILS */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-3">
+                <h3 className="text-2xl font-bold text-primary mb-4">
+                  Why Work With Me
+                </h3>
+                <p className="text-secondary leading-relaxed mb-6">
+                  With 7+ years of experience in full-stack development, I bring enterprise-level expertise to every project. I specialize in building scalable, secure, and high-performance applications that drive business growth.
+                </p>
+              </div>
+
+              {/* EXPERTISE AREAS */}
+              <div>
+                <h4 className="text-lg font-semibold text-primary mb-4">
+                  Core Expertise
+                </h4>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span className="text-secondary">Full-Stack Development</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span className="text-secondary">E-commerce Platforms</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span className="text-secondary">IoT Applications</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span className="text-secondary">API Development</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span className="text-secondary">System Architecture</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full"></div>
+                    <span className="text-secondary">Performance Optimization</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* TECH STACK */}
+              <div>
+                <h4 className="text-lg font-semibold text-primary mb-4">
+                  Tech Stack
+                </h4>
+                <div className="flex flex-wrap gap-2">
+                  {['React.js', 'Vue.js', 'Node.js', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'REST APIs', 'WebSockets'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="px-3 py-1 bg-accent-light text-accent rounded-full text-sm font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* AVAILABILITY */}
+              <div className="bg-secondary-gradient rounded-xl p-6">
+                <h4 className="text-lg font-semibold text-primary mb-3">
+                  Current Availability
+                </h4>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
+                    <span className="text-secondary">Available for new projects</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
+                    <span className="text-secondary">Open to consulting opportunities</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
+                    <span className="text-secondary">Remote & on-site (Lahore)</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* PROJECT TYPES */}
+              <div>
+                <h4 className="text-lg font-semibold text-primary mb-4">
+                  Project Types I Work On
+                </h4>
+                <ul className="space-y-2 text-secondary">
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Enterprise software development and modernization</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>E-commerce platforms with advanced features</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>IoT monitoring and data visualization systems</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>API development and system integration</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent mt-1">•</span>
+                    <span>Performance optimization and scalability solutions</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* RIGHT COLUMN - CONTACT DETAILS */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-4xl font-bold text-primary mb-3">
                   Let&apos;s discuss your Project
                 </h2>
-                <p className="text-gray-500 leading-relaxed">
+                <p className="text-secondary leading-relaxed">
                   {data.profile.bio}
                 </p>
               </div>
@@ -54,12 +148,12 @@ const ContactUs = () => {
                 
                 {/* Address */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Address</p>
-                    <p className="text-gray-900 font-medium">
+                    <p className="text-sm text-muted">Address</p>
+                    <p className="text-primary font-medium">
                       {data.profile.contact.address}
                     </p>
                   </div>
@@ -67,14 +161,14 @@ const ContactUs = () => {
 
                 {/* Email */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Email</p>
+                    <p className="text-sm text-muted">Email</p>
                     <a
                       href={`mailto:${data.profile.contact.email}`}
-                      className="text-gray-900 font-medium hover:text-purple-600 transition-colors"
+                      className="text-primary font-medium hover:text-accent transition-colors"
                     >
                       {data.profile.contact.email}
                     </a>
@@ -83,16 +177,16 @@ const ContactUs = () => {
 
                 {/* Phone */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-purple-600" />
+                  <div className="w-12 h-12 bg-accent-light rounded-xl flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Phone</p>
+                    <p className="text-sm text-muted">Phone</p>
                     <a
                       href={`https://wa.me/${whatsappNumber}`}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-gray-900 font-medium hover:text-purple-600 transition-colors"
+                      className="text-primary font-medium hover:text-accent transition-colors"
                     >
                       {data.profile.contact.phone}
                     </a>
@@ -106,90 +200,20 @@ const ContactUs = () => {
                   href={data.profile.socials.linkedin}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-10 h-10 border border-gray-200 hover:bg-purple-600 hover:border-purple-600 rounded-lg flex items-center justify-center transition-all group"
+                  className="w-10 h-10 border border-secondary hover:bg-accent hover:border-accent rounded-lg flex items-center justify-center transition-all group"
                 >
-                  <Linkedin className="w-5 h-5 text-purple-600 group-hover:text-white" />
+                  <Linkedin className="w-5 h-5 text-accent group-hover:text-white" />
                 </a>
 
                 <a
                   href={data.profile.socials.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-10 h-10 border border-gray-200 hover:bg-purple-600 hover:border-purple-600 rounded-lg flex items-center justify-center transition-all group"
+                  className="w-10 h-10 border border-secondary hover:bg-accent hover:border-accent rounded-lg flex items-center justify-center transition-all group"
                 >
-                  <Github className="w-5 h-5 text-purple-600 group-hover:text-white" />
+                  <Github className="w-5 h-5 text-accent group-hover:text-white" />
                 </a>
               </div>
-            </div>
-
-            {/* RIGHT COLUMN - FORM */}
-            <div className="space-y-6">
-              <p className="text-gray-500 leading-relaxed">
-                I&apos;m always open to discussing enterprise software, backend
-                systems, or freelance opportunities.
-              </p>
-
-              <input
-                type="text"
-                name="name"
-                placeholder="Name*"
-                value={formData.name}
-                onChange={handleChange}
-                className="w-full py-3 border-b border-gray-300 focus:border-purple-600 outline-none"
-              />
-
-              <input
-                type="email"
-                name="email"
-                placeholder="Email*"
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full py-3 border-b border-gray-300 focus:border-purple-600 outline-none"
-              />
-
-              <input
-                type="text"
-                name="location"
-                placeholder="Location*"
-                value={formData.location}
-                onChange={handleChange}
-                className="w-full py-3 border-b border-gray-300 focus:border-purple-600 outline-none"
-              />
-
-              <div className="grid grid-cols-2 gap-6">
-                <input
-                  type="text"
-                  name="budget"
-                  placeholder="Budget*"
-                  value={formData.budget}
-                  onChange={handleChange}
-                  className="py-3 border-b border-gray-300 focus:border-purple-600 outline-none"
-                />
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject*"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  className="py-3 border-b border-gray-300 focus:border-purple-600 outline-none"
-                />
-              </div>
-
-              <textarea
-                name="message"
-                placeholder="Message*"
-                rows={4}
-                value={formData.message}
-                onChange={handleChange}
-                className="w-full py-3 border-b border-gray-300 focus:border-purple-600 outline-none resize-none"
-              />
-
-              <button
-                onClick={handleSubmit}
-                className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-medium transition-all shadow-lg hover:shadow-xl"
-              >
-                Submit Message
-              </button>
             </div>
 
           </div>

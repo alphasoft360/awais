@@ -15,13 +15,13 @@ const Biography = () => {
           {/* Left Side - Content */}
           <div className="space-y-6">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary leading-tight">
-              Senior Software Engineer
+              {data.biography.heading.line1}
               <br />
-              Full-Stack & Backend Specialist
+              {data.biography.heading.line2}
             </h1>
 
             <div className="space-y-4 text-secondary text-sm sm:text-base leading-relaxed max-h-[380px] overflow-y-auto pr-2">
-              {data.biography.map((item, index) => (
+              {data.biography.content.map((item, index) => (
                 <p key={index}>{item}</p>
               ))}
             </div>

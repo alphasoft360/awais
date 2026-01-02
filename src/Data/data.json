@@ -2,7 +2,7 @@
   "profile": {
     "name": "Muhammad Awais",
     "role": "Senior Software Engineer | Full Stack Developer",
-    "bio": "Senior Software Engineer with years of experience in full-stack development, e-commerce platforms, IoT applications, and scalable backend systems. Specialized in building secure, high-performance enterprise and freelance solutions.",
+    "bio": "Passionate software architect crafting innovative digital solutions with a focus on performance, scalability, and user experience across diverse technology stacks.",
     "contact": {
       "email": "mailawais709@gmail.com",
       "phone": "+92-305-764-9933",
@@ -16,7 +16,7 @@
   "hero": {
   "greeting": "Hello, I'm",
   "name": "Muhammad Awais",
-  "description": "I'm a Senior Software Engineer with years of experience in full-stack development, e-commerce systems, IoT applications, and scalable backend architectures.",
+  "description": "Transforming ideas into powerful web applications through clean code, modern architectures, and cutting-edge technology solutions.",
   "stats": [
     { "value": "7+", "label": "Years Experience" },
     { "value": "30+", "label": "Projects Delivered" },
@@ -30,7 +30,7 @@
     "line2": "Full-Stack & Backend Specialist"
   },
   "content": [
-    "I am a Senior Software Engineer with over years of professional experience in full-stack software development, backend architecture, and API-driven systems. I specialize in building scalable, secure, and high-performance applications.",
+    "I am a creative problem-solver dedicated to engineering robust software solutions that bridge complex business challenges with elegant technical implementations.",
     "I have worked across multiple domains including e-commerce, healthcare, education, ERP, POS, and industrial IoT platforms, delivering enterprise-grade solutions with long-term maintainability.",
     "Intelgenic: Led development and modernization of OpenCart and Laravel-based e-commerce platforms, integrated AI-powered search, product recommendations, and Elasticsearch for high-performance querying.",
     "Hosted Website Concept: Built survey systems, hospital billing software, high-traffic e-commerce platforms, and custom video conferencing applications using Laravel and Vue.js.",
@@ -43,7 +43,7 @@
   "whatIDo": {
     "title": "What I Do",
     "paragraphs": [
-      "I am a Senior Software Engineer with years of experience in designing and developing scalable full-stack applications, enterprise systems, and IoT-based platforms.",
+      "I am a versatile developer passionate about creating seamless digital experiences that combine aesthetic design with powerful backend functionality.",
       "I work closely with cross-functional teams and stakeholders to architect secure, high-performance solutions, focusing on clean code, system scalability, and long-term maintainability."
     ]
   },
@@ -112,7 +112,7 @@
   "contact": {
     "whyWorkWithMe": {
       "title": "Why Work With Me",
-      "description": "With years of experience in full-stack development, I bring enterprise-level expertise to every project. I specialize in building scalable, secure, and high-performance applications that drive business growth."
+      "description": "Bringing technical excellence and innovative thinking to every project, ensuring solutions that not only meet requirements but exceed expectations."
     },
     "coreExpertise": {
       "title": "Core Expertise",
@@ -152,7 +152,7 @@
     },
     "letsDiscuss": {
       "title": "Let's discuss your Project",
-      "description": "Senior Software Engineer with years of experience in full-stack development, e-commerce platforms, IoT applications, and scalable backend systems. Specialized in building secure, high-performance enterprise and freelance solutions."
+      "description": "Ready to collaborate on your next big idea? Let's build something remarkable together that combines technical innovation with business value."
     }
   }
 }

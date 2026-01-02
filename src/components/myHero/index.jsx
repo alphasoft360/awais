@@ -64,7 +64,7 @@ const Stat = ({ value, label }) => {
           <div className="flex justify-center lg:justify-end">
             <div className="max-w-lg text-center lg:text-left space-y-6">
               <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-primary leading-tight">
-                Hello, I&apos;m
+                {data.hero.greeting}
                 <br />
                 <span className="block mt-1 text-accent">{data.hero.name}</span>
               </h1>

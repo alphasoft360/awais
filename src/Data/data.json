@@ -2,10 +2,10 @@
   "profile": {
     "name": "Muhammad Awais",
     "role": "Senior Software Engineer | Full Stack Developer",
-    "bio": "Senior Software Engineer with 7+ years of experience in full-stack development, e-commerce platforms, IoT applications, and scalable backend systems. Specialized in building secure, high-performance enterprise and freelance solutions.",
+    "bio": "Senior Software Engineer with years of experience in full-stack development, e-commerce platforms, IoT applications, and scalable backend systems. Specialized in building secure, high-performance enterprise and freelance solutions.",
     "contact": {
       "email": "mailawais709@gmail.com",
-      "phone": "+92-370-485-7471",
+      "phone": "+92-305-764-9933",
       "address": "Lahore, Punjab, Pakistan"
     },
     "socials": {
@@ -14,29 +14,36 @@
   },
 
   "hero": {
-    "name": "Muhammad Awais",
-    "description": "I'm a Senior Software Engineer with 7+ years of experience in full-stack development, e-commerce systems, IoT applications, and scalable backend architectures.",
-    "stats": [
-      { "value": "7+", "label": "Years Experience" },
-      { "value": "30+", "label": "Projects Delivered" },
-      { "value": "25+", "label": "Happy Clients" }
-    ]
-  },
+  "greeting": "Hello, I'm",
+  "name": "Muhammad Awais",
+  "description": "I'm a Senior Software Engineer with years of experience in full-stack development, e-commerce systems, IoT applications, and scalable backend architectures.",
+  "stats": [
+    { "value": "7+", "label": "Years Experience" },
+    { "value": "30+", "label": "Projects Delivered" },
+    { "value": "25+", "label": "Happy Clients" }
+  ]
+},
 
-  "biography": [
-    "I am a Senior Software Engineer with over 7+ years of professional experience in full-stack software development, backend architecture, and API-driven systems. I specialize in building scalable, secure, and high-performance applications.",
+  "biography": {
+  "heading": {
+    "line1": "Senior Software Engineer",
+    "line2": "Full-Stack & Backend Specialist"
+  },
+  "content": [
+    "I am a Senior Software Engineer with over years of professional experience in full-stack software development, backend architecture, and API-driven systems. I specialize in building scalable, secure, and high-performance applications.",
     "I have worked across multiple domains including e-commerce, healthcare, education, ERP, POS, and industrial IoT platforms, delivering enterprise-grade solutions with long-term maintainability.",
     "Intelgenic: Led development and modernization of OpenCart and Laravel-based e-commerce platforms, integrated AI-powered search, product recommendations, and Elasticsearch for high-performance querying.",
     "Hosted Website Concept: Built survey systems, hospital billing software, high-traffic e-commerce platforms, and custom video conferencing applications using Laravel and Vue.js.",
     "IoT Expertise: Developed real-time industrial monitoring systems (RAMS) with live sensor data, alerts, dashboards, and WebSocket-based communication.",
     "Backend Expertise: Strong hands-on experience with Laravel, Node.js, Nest.js, REST APIs, authentication, RBAC, and automated testing using PHPUnit.",
     "Frontend & DevOps: Experienced with Vue.js, React.js, Angular, MySQL, MongoDB, and DevOps workflows for scalable deployments."
-  ],
+  ]
+},
 
   "whatIDo": {
     "title": "What I Do",
     "paragraphs": [
-      "I am a Senior Software Engineer with 7+ years of experience in designing and developing scalable full-stack applications, enterprise systems, and IoT-based platforms.",
+      "I am a Senior Software Engineer with years of experience in designing and developing scalable full-stack applications, enterprise systems, and IoT-based platforms.",
       "I work closely with cross-functional teams and stakeholders to architect secure, high-performance solutions, focusing on clean code, system scalability, and long-term maintainability."
     ]
   },
@@ -100,5 +107,52 @@
       "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=400&fit=crop",
       "bgColor": "from-purple-700 to-fuchsia-800"
     }
-  ]
+  ],
+
+  "contact": {
+    "whyWorkWithMe": {
+      "title": "Why Work With Me",
+      "description": "With years of experience in full-stack development, I bring enterprise-level expertise to every project. I specialize in building scalable, secure, and high-performance applications that drive business growth."
+    },
+    "coreExpertise": {
+      "title": "Core Expertise",
+      "items": [
+        "Full-Stack Development",
+        "E-commerce Platforms",
+        "IoT Applications",
+        "API Development",
+        "System Architecture",
+        "Performance Optimization"
+      ]
+    },
+    "techStack": {
+      "title": "Tech Stack",
+      "items": [
+        "Node.js", "Laravel", "CodeIgniter", "Symphony", "OpenCart", "ShopWare",
+        "React.js", "Next.js", "Angular", "Vue.js", "Knockout.js"
+      ]
+    },
+    "availability": {
+      "title": "Current Availability",
+      "items": [
+        "Available for new projects",
+        "Open to consulting opportunities",
+        "Remote & on-site (Lahore)"
+      ]
+    },
+    "projectTypes": {
+      "title": "Project Types I Work On",
+      "items": [
+        "Enterprise software development and modernization",
+        "E-commerce platforms with advanced features",
+        "IoT monitoring and data visualization systems",
+        "API development and system integration",
+        "Performance optimization and scalability solutions"
+      ]
+    },
+    "letsDiscuss": {
+      "title": "Let's discuss your Project",
+      "description": "Senior Software Engineer with years of experience in full-stack development, e-commerce platforms, IoT applications, and scalable backend systems. Specialized in building secure, high-performance enterprise and freelance solutions."
+    }
+  }
 }
